@@ -24,7 +24,7 @@ function renameFile(filename: string, oldExt: string, newExt: string) {
 }
 
 if (process.argv.length !== 3) {
-  console.error("Usage: node js2mjs.js <path>");
+  console.error("Usage: node rename-js-to-mjs.js <path>");
   process.exit(1);
 }
 const dirPath = path.join(process.cwd(), process.argv[2]);

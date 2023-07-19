@@ -1,9 +1,9 @@
 {
-  "name": "js2mjs",
+  "name": "rename-js-to-mjs",
   "version": "0.1.0",
   "private": false,
   "bin": {
-    "js2mjs": "./dist/cjs/js2mjs.js"
+    "rename-js-to-mjs": "./dist/cjs/rename-js-to-mjs.js"
   },
   "exports": {
     ".": {
