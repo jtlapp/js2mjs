@@ -1,9 +1,9 @@
 {
-  "name": "to-mjs",
+  "name": "js2mjs",
   "version": "0.1.0",
   "private": false,
   "bin": {
-    "to-mjs": "./dist/cjs/to-mjs.js"
+    "js2mjs": "./dist/cjs/js2mjs.js"
   },
   "exports": {
     ".": {

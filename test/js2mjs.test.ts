@@ -14,9 +14,9 @@ it("renames all and only the required files", () => {
   }
   copyDir(fixturesDirPath, tempDirPath);
 
-  // Run the to-mjs script on the temporary directory
+  // Run the js2mjs script on the temporary directory
 
-  const toMjsPath = path.join(__dirname, "..", "src", "to-mjs.ts");
+  const toMjsPath = path.join(__dirname, "..", "src", "js2mjs.ts");
   const toMjsCommand = `npx ts-node ${toMjsPath} test/${TEMP_DIR}`;
   execSync(toMjsCommand);
 
